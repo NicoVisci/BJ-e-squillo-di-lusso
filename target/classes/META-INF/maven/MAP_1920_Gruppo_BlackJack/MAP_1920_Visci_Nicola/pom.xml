@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>MAP_1920_Gruppo_BlackJack</groupId>
+  <artifactId>MAP_1920_Visci_Nicola</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>MAP_1920_Gruppo_BlackJack</name>
+  <description>Progetto per l'esame di MAP 1920</description>
+  <properties>
+ 	<maven.compiler.source>11</maven.compiler.source>
+ 	<maven.compiler.target>11</maven.compiler.target>
+ 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-jar-plugin</artifactId>
+  			<version>2.3.2</version>
+  			<configuration>
+          		<archive>
+            		<manifest>
+              			<addClasspath>true</addClasspath>
+              			<mainClass>core.AppMain</mainClass>
+           			</manifest>
+          		</archive>
+        	</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
+</project>

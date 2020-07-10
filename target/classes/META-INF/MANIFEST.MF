@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: yuma2
+Build-Jdk: 13.0.1
+Main-Class: core.AppMain
+Created-By: Maven Integration for Eclipse
+
