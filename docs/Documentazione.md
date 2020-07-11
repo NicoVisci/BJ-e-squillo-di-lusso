@@ -11,7 +11,7 @@ Il progetto di Metodi Avanzati di Programmazione dell'anno accademico 19/20 prev
 Le avventure testuali sono applicazioni che simulano un ambiente nel quale i giocatori usano comandi testuali per istruire il personaggio della storia ad interagire con l'ambiente in cui si trova. Il giocatore usa una interfaccia a riga di comando per controllare il gioco, e anche la situazione di gioco è descritta al giocatore tramite frasi di testo.
 
 Il modello di dominio dell'applicazione sarà quindi 
-![Modello di dominio](/docs/Model Domain.jpg)
+![Modello di dominio](/docs/Model Domain.jpg?raw=true)
 
 ### Design
 L'idea di base dell'applicazione prevede la realizzazione di un'interfaccia utente che possa ricevere gli input da una riga di comando, mostrare gli output sempre in forma testuale ed implementare alcuni shortcuts sotto forma di un pannello per le opzioni in modo da semplificare all'utente le istruzioni più importanti quali Nuova Partita, Salva Partita o Visualizza Regole.
