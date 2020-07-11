@@ -17,7 +17,7 @@ La repository del progetto è strutturata nel seguente modo:
 |      |-- maven-archiver
 |      |-- maven-status/maven-compiler-plugin
 |      |-- MAP_1920_Visci_Nicola-0.0.1-SNAPSHOT.jar
-|–– src
+|–– docs
 |    |–– Documentazione.md
 |    |–– images
 |-- .classpath
@@ -31,7 +31,7 @@ Di seguito una breve spiegazione del contenuto e scopo delle varie directory e s
 
 - Nella directory **target** sono presenti i file del software di gestione di progetti software **Maven**, compreso il plugin di Maven compiler. All'interno di target c'è anche la build dello snapshot dell'applicazioni in formato package .jar.
 
-- Nella directory **src** è presente il file di documentazione del software **Documentazione.md** in linguaggio di markup Markdown.
-In **src/images** invece ci sono i sorgenti delle immagini presenti nel file di documentazione.
+- Nella directory **docs** è presente il file di documentazione del software **Documentazione.md** in linguaggio di markup Markdown.
+In **docs/images** invece ci sono i sorgenti delle immagini presenti nel file di documentazione.
 
 - I successivi file sono file di configurazione di Maven, compreso il relativo Project Object Model di Maven **POM.xml** 
