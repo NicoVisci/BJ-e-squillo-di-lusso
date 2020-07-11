@@ -16,7 +16,7 @@ Il modello di dominio dell'applicazione sarà quindi
 ### Design
 L'idea di base dell'applicazione prevede la realizzazione di un'interfaccia utente che possa ricevere gli input da una riga di comando, mostrare gli output sempre in forma testuale ed implementare alcuni shortcuts sotto forma di un pannello per le opzioni in modo da semplificare all'utente le istruzioni più importanti quali Nuova Partita, Salva Partita o Visualizza Regole.
 Il diagramma delle classi per l'interfaccia utente è il seguente:
-![Diagram class per l'interfaccia utente](/docs/User Interface Class Diagram.jpg)
+![Diagram class per l'interfaccia utente](https://github.com/NicoVisci/BJ-e-squillo-di-lusso/blob/master/docs/images/User%20Interface%20Class%20Diagram.jpg)
 
 L'interfaccia utente deve inviare i comandi testuali inseriti dall'utente all'unità di controllo dell'input, che non è altro che il primo anello di una Chain-of-Responsibility pattern che processa il comando fornito, ed in base al responso modifica lo stato della partita oppure passa il comando all'anello della catena successivo. Successivamente sarà presentato il sequence diagram della catena di controllo input.
 
@@ -74,7 +74,7 @@ lo **scenario_villa package**, che è l'unico scenario disponibile e giocabile i
 
 
 Per comprendere meglio il flusso di controllo della Chain of Responsibility, ecco il sequence diagram descrittivo
-![Sequence Diagram Flusso di Controllo](/docs/Input Control - Sequence Diagram.jpg)
+![Sequence Diagram Flusso di Controllo](https://github.com/NicoVisci/BJ-e-squillo-di-lusso/blob/master/docs/images/Input%20Control%20-%20Sequence%20Diagram.jpg)
 Il controllo dell'interfaccia utente invia il comando alla prima classe della catena: di lì ogni classe processa il comando ed in base al responso compie le proprie routine e restituisce il controllo all'interfaccia utente, altrimenti passa il comando in input alla classe successiva.
 
 In generale, il flusso dell'applicazione segue un modello Event Driven.
